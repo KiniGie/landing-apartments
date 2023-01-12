@@ -1,0 +1,32 @@
+header {
+    nav {
+        max-width: 1300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid rgb(20, 158, 22);
+    }
+
+    .box-menu {
+        display: flex;
+        gap: 30px;
+        
+        .menu {
+            display: flex;
+            gap: 20px;
+
+            .menu-item {
+                border: 1px solid rgb(47, 186, 255);
+                border-radius: 15px;
+                padding: 6px 10px;
+            
+            }
+        .btn-sign {
+            background-color: #D1FAE5;
+        }    
+        }
+        
+     }
+
+
+}

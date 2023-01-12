@@ -17,6 +17,27 @@ button {
   border: none;
 }
 
+header nav {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+header .box-menu {
+  display: flex;
+  gap: 30px;
+}
+header .box-menu .menu {
+  display: flex;
+  gap: 20px;
+}
+header .box-menu .menu .menu-item {
+  border: 1px solid greenyellow;
+  border-radius: 15px;
+  padding: 6px 10px;
+}
+
 h2 {
   color: red;
 }/*# sourceMappingURL=style.css.map */
